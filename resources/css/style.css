@@ -1,0 +1,147 @@
+html {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    padding-left: 4rem;
+    width: 960px;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+.logo img {
+    height: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.logo span {
+    font-size: 1rem;
+    padding: 0.66rem 0.5rem;
+}
+
+.banner {
+    background-image: url("../images/moto.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 25rem;
+}
+
+.featured {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: left;
+    font-weight: bold;
+    width: 20rem;
+    margin-top: 9rem;
+}
+
+.featured .headline {
+    font-size: 1rem;
+    padding: 2rem 0 .25rem 3rem;
+}
+
+.featured .featured-item {
+    font-size: 2rem;
+    padding: 0 0 2rem 3rem;
+}
+
+nav {
+    padding: 0.75rem 0;
+    color: white;
+    background-color: firebrick;
+    width: 100%
+}
+
+nav .container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.product {
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 4px black;
+    background-color: white;
+    width: 30%;
+}
+
+.product img {
+    max-width: 50%;
+    height: 9rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-self: center;
+}
+
+.product .product-title {
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    align-self: baseline;
+}
+
+.store-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.location, .hours {
+    display: inline-flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.location .title, .hours .title {
+    background-color: black;
+    color: white;
+    padding: 1rem 0 1rem 2rem;
+}
+
+.info-item {
+    text-align: left;
+}
+
+
+footer {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    height: 5rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+footer span {
+    text-align: center;
+}
